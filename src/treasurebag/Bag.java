@@ -1,10 +1,6 @@
 package treasurebag;
 
-/**
- *
- * @author Al-Qema
- *
- */
+
 public class Bag<T> {
 
     private Treasure[] items;
@@ -67,7 +63,7 @@ public class Bag<T> {
 
     public void distributeTreasuresRandomly(String[] treasureNames) {
         for (String treasureName : treasureNames) {
-            addTreasure(new Treasure(treasureName)); // إضافة كل كنز مرة واحدة
+            addTreasure(new Treasure(treasureName)); 
         }
 
         for (String treasureName : treasureNames) {
